@@ -1,0 +1,56 @@
+/* Sidebar.css */
+.sidebar {
+  width: 250px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-img {
+  width: 140px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.social-links {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.social-links a {
+  color: #333;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #0077b5; /* LinkedIn blue or you can vary it per icon */
+}
+
+/* Tags.css or inside the component CSS */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.tag {
+  background-color: #e0e0e0;
+  color: #333;
+  padding: 4px 10px;
+  font-size: 0.85rem;
+  border-radius: 12px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.tag:hover {
+  background-color: #cfcfcf;
+}
