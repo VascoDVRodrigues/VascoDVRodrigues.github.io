@@ -1,26 +1,25 @@
 /* Sidebar.css */
 .sidebar {
   width: 250px;
-  background-color: #f4f4f4;
-  padding: 20px;
+  padding: 10px;
   border-right: 1px solid #ddd;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
+  align-items: left;
+  text-align: left;
 }
 
 .profile-img {
-  width: 140px;
+  width: 100%;
   border-radius: 50%;
   margin-bottom: 10px;
 }
 
 .social-links {
-  margin-top: 20px;
+  margin-bottom: 20px;
   display: flex;
   gap: 15px;
-  justify-content: center;
+  justify-content: left;
 }
 
 .social-links a {
@@ -38,7 +37,7 @@
   flex-wrap: wrap;
   gap: 8px;
   margin-top: 10px;
-  justify-content: center;
+  justify-content: left;
 }
 
 .tag {
@@ -53,4 +52,11 @@
 
 .tag:hover {
   background-color: #cfcfcf;
+}
+
+.subtitle {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 0.9rem;
 }

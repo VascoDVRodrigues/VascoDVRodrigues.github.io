@@ -1,0 +1,21 @@
+.date{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.title{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.custom-content {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.details {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.info-entry {
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 10px;
+}

@@ -36,8 +36,9 @@ function App() {
         )}
 
         <section className="info-section">
-          <h2>Professional Experience</h2>
-          <div>
+          <p className="subtitle">Professional Experience</p>
+
+          <div className="info-element">
             {info.map((info_item, index) => (
               info_item.category === "Professional Experience" ? (
                 <InfoSection
@@ -49,8 +50,8 @@ function App() {
           </div>
         </section>
         <section className="info-section">
-          <h2>Education</h2>
-          <div>
+          <p className="subtitle">Education</p>
+          <div className="info-element">
             {info.map((info_item, index) => (
               info_item.category === "Education" ? (
                 <InfoSection
@@ -62,8 +63,8 @@ function App() {
           </div>
         </section>
         <section className="info-section">
-          <h2>Extracurricular Experience</h2>
-          <div>
+          <p className="subtitle">Extracurricular Experience</p>
+          <div className="info-element">
             {info.map((info_item, index) => (
               info_item.category === "Extra Education" ? (
                 <InfoSection

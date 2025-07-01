@@ -9,9 +9,9 @@ export default function Sidebar() {
     <aside className="sidebar">
       <img src={profile_picture} alt="Profile" className="profile-img" />
 
-      <h2>Vasco Rodrigues</h2>
-      <p className="role">Data Engineer at SEA.AI</p>
-      <p className="location">Lisbon, PT</p>
+      <h2 style={{ marginBottom: 0 }}>Vasco Rodrigues</h2>
+      <p style={{ marginTop: 0 }}>Data Engineer @ SEA.AI<br />Lisbon, PT</p>
+
     
       <div className="social-links">
         <a href="https://www.linkedin.com/in/vasco-v-rodrigues/" target="_blank" rel="noopener noreferrer">
@@ -24,16 +24,24 @@ export default function Sidebar() {
           <HiOutlineMail size={22} />
         </a>
       </div>
-      <p className="about">BSc and MSc in Electrical and Computer Engineering from Instituto Superior Técnico. </p>
-        
-        <p className="about"> enjoy working with business stakeholders to support strategy.</p>
+      <div>
+      <p className="subtitle" style={{ marginBottom: 0 }}>About</p>
+      <p style={{ marginTop: 0 }}>BSc and MSc in Electrical and Computer Engineering from Instituto Superior Técnico. </p>
+      </div>
+
+      <div>
+        <p className="subtitle">Skills</p>
       <div className="tags">
         <span className="tag">SQL</span>
         <span className="tag">Python</span>
         <span className="tag">R</span>
         <span className="tag">Excel</span>
         <span className="tag">Sampling</span>
+        <span className="tag">Data Analysis</span>
+        <span className="tag">Machine Vision</span>
       </div>
+        </div>
+     
     </aside>
   );
 }
